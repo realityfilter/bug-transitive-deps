@@ -10,7 +10,7 @@
       "options": {
         "outputPath": "dist/packages/app",
         "baseHref": "/",
-        "configFile": "@nxext/vite/plugins/vite"
+        "configFile": "packages/app/vite.config.ts"
       },
       "configurations": {
         "production": {
@@ -28,7 +28,7 @@
       "options": {
         "outputPath": "dist/packages/app",
         "baseHref": "/",
-        "configFile": "@nxext/vite/plugins/vite"
+        "configFile": "packages/app/vite.config.ts"
       },
       "configurations": {
         "production": {
