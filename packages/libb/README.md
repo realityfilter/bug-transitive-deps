@@ -2,6 +2,20 @@
 
 This library was generated with [Nx](https://nx.dev).
 
-## Running unit tests
+- `npx create-nx-workspace trans-dep`
+- `npm install -D @nxext/vite`
+- `nx g lib liba`
+- `nx g lib libb`
+- `nx g @nxext/vite:application app`
 
-Run `nx test libb` to execute the unit tests via [Jest](https://jestjs.io).
+- `nx serve app`
+  Resulting in
+
+      The following dependencies are imported but could not be resolved:
+
+      @trans-dep/libb (imported by /Users/vb/Desktop/nx-vite-dep/trans-dep/packages/liba/src/lib/liba.ts)
+
+      Are they installed?
+      Error: The following dependencies are imported but could not be resolved:
+
+       @trans-dep/libb (imported by /Users/vb/Desktop/nx-vite-dep/trans-dep/packages/liba/src/lib/liba.ts)
